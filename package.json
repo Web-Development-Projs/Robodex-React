@@ -1,13 +1,17 @@
 {
   "name": "monsters-rolodex",
   "version": "0.0.0",
+  "homepage": "https://matthewpiedra.github.io/Robodex",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "gh-pages": "^3.2.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
