@@ -1,7 +1,7 @@
 {
   "name": "monsters-rolodex",
   "version": "0.0.0",
-  "homepage": "https://matthewpiedra.github.io/Robodex",
+  "homepage": "https://web-development-projs.github.io/Robodex-React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
