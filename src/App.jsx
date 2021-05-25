@@ -10,7 +10,7 @@ export default class App extends Component {
      this.state = {
         monsters: [],
         searchField: '',
-        isLoading: true,
+        isLoading: true
      }
   }
 
